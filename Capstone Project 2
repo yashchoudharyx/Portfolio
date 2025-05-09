@@ -1,0 +1,13 @@
+<script>start("/Users/yash/Desktop/Web dev projects/Capstone Project 2/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("images","images",1,352,"352 B",1746822614,"5/9/25, 4:30:14 PM");</script>
+<script>addRow("videos","videos",1,96,"96 B",1746823017,"5/9/25, 4:36:57 PM");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1743525235,"4/1/25, 12:33:55 PM");</script>
+<script>addRow("2024_Game_Jam.html","2024_Game_Jam.html",0,6596,"6.4 kB",1720722128,"7/11/24, 2:22:08 PM");</script>
+<script>addRow("about me.html","about%20me.html",0,11020,"10.8 kB",1720725155,"7/11/24, 3:12:35 PM");</script>
+<script>addRow("accessories.html","accessories.html",0,3918,"3.8 kB",1746823030,"5/9/25, 4:37:10 PM");</script>
+<script>addRow("demo.html","demo.html",0,4547,"4.4 kB",1746823066,"5/9/25, 4:37:46 PM");</script>
+<script>addRow("index.html","index.html",0,6604,"6.4 kB",1746546127,"5/6/25, 11:42:07 AM");</script>
+<script>addRow("projects.html","projects.html",0,7906,"7.7 kB",1720725155,"7/11/24, 3:12:35 PM");</script>
+<script>addRow("style.css","style.css",0,1101,"1.1 kB",1720204254,"7/5/24, 2:30:54 PM");</script>
+<script>addRow("watch.html","watch.html",0,3056,"3.0 kB",1746822226,"5/9/25, 4:23:46 PM");</script>
