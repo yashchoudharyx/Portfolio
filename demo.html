@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Rental UI Mockup</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background-color: #fdfdfd;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .product-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .price {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .filter-btn {
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Yash's Fashion Demo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Filters -->
+  <div class="container my-4">
+    <h2 class="mb-3">Explore Styles</h2>
+    <div>
+      <button class="btn btn-outline-secondary filter-btn">All</button>
+      <button class="btn btn-outline-dark filter-btn">Men</button>
+      <button class="btn btn-outline-secondary filter-btn">Women</button>
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Product 1 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card product-card h-100">
+          <img src="https://images.pexels.com/photos/10037708/pexels-photo-10037708.jpeg" class="card-img-top" alt="Dress 1" />
+          <div class="card-body">
+            <h5 class="card-title">Formals</h5>
+            <p class="price">From CAD $30</p>
+            <button class="btn btn-dark w-100">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card product-card h-100">
+          <img src="https://images.pexels.com/photos/31912524/pexels-photo-31912524/free-photo-of-contemplative-young-man-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="Dress 2" />
+          <div class="card-body">
+            <h5 class="card-title">Casuals</h5>
+            <p class="price">From CAD $25</p>
+            <button class="btn btn-dark w-100">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card product-card h-100">
+          <img src="https://images.pexels.com/photos/29205143/pexels-photo-29205143/free-photo-of-athletic-man-skipping-rope-outdoors-in-austin.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="Dress 3" />
+          <div class="card-body">
+            <h5 class="card-title">Athletic wear</h5>
+            <p class="price">From CAD $20</p>
+            <button class="btn btn-dark w-100">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card product-card h-100">
+          <img src="https://images.pexels.com/photos/2896823/pexels-photo-2896823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="Dress 3" />
+          <div class="card-body">
+            <h5 class="card-title">Accessories </h5>
+            <p class="price">From CAD $5</p>
+            <button class="btn btn-dark w-100" onclick="location.href='./accessories.html'">Explore</button>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5 border-top">
+    <p class="mb-0">© 2025 Yash Choudhary. Mockup created for interview purposes.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
